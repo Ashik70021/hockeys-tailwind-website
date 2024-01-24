@@ -39,7 +39,6 @@
 
 <body class="font-manrope">
   <header>
-
     <!-- Nav bar Section -->
     <section class="container mx-auto mt-12">
       <div class="navbar bg-base-100">
@@ -93,11 +92,12 @@
     </section>
   </header>
   <!-- Banner Section -->
-  <section class="container mx-auto">
+  <section class="p-4 lg:p-0 container mx-auto">
     <div class="carousel w-full pt-14">
       <div id="slide1" class="carousel-item relative w-full">
         <img src="Images/1.png" class="w-full h-4/5 rounded-2xl" />
-        <div class="absolute flex gap-4 transform -translate-y-1/2 left-[41%] lg:left-10 top-[65%] lg:top-[73%]">
+        <!-- left-[41%] lg:left-10 top-[65%] lg:top-[73%] -->
+        <div class="absolute flex  gap-4 transform -translate-y-1/2 left-[40%] lg:left-10 top-[65%] lg:top-[73%] justify-center">
           <a href="#slide3" class="btn btn-circle bg-gray-900 border-none"><span class="text-white"> ❮
             </span></a>
           <a href="#slide2" class="btn btn-circle bg-gray-900 border-none"><span class="text-white"> ❯
@@ -122,18 +122,22 @@
             </span></a>
         </div>
       </div>
+      <!-- Meet all the heroes from the field -->
+     <!-- <div class="relative inline-flex flex-col p-8 border-solid  bg-black rounded-xl transform -translate-y-1/2 left-100 top-[73%]">
+      <h1 class="pb-4 text-2xl font font-extrabold text-white">Meet all the heroes from the field</h1>
+      <p class="text-base font-medium text-[#ffffff99]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam<br> turpis placerat dolor. Purus urna in sit nullam proin. </p>
+     </div> -->
     </div>
+
   </section>
 
 
   <!-- Professional Hockeys Club section -->
-  <section class="container mx-auto">
+  <section class="p-4 lg:p-0 container mx-auto">
     <hr class="border-dashed">
     <div class="text-center pt-8 pb-8">
       <h1 class="text-4xl font-extrabold">Professional Hockeys Club</h1>
-      <p class="text-base font-medium text-[#131318] opacity-60 pt-6">Dit amet consectetur. Condimentum dignissim
-        adipiscing aliquam turpis placerat
-        <br>dolor. Purus urna in sit nullam proin.
+      <p class="text-base font-medium text-[#131318] opacity-60 pt-6">Welcome to Hockey's, where passion meets the puck! We are more than just a hockey club <br> we're a community of dedicated players, coaches, and fans who share a love for the game.
       </p>
     </div>
     <hr class="border-dashed">
@@ -147,8 +151,7 @@
         </div>
 
         <h1 class="text-xl font-semibold pb-4">Prayer Facility</h1>
-        <p class="text-base font-normal text-[#131318] opacity-60">Amet consectetur. Condimentum <br> dignissim
-          adipiscing .</p>
+        <p class="text-base font-normal text-[#131318] opacity-60">High standard,providing a positive <br> experience for club members.</p>
       </div>
       <div class="text-center">
         <div class="radial-progress text-primary text-[#49D293] text-3xl font-extrabold mb-6 mt-6"
@@ -156,8 +159,7 @@
             class="text-[#131318]">95%</span></div>
 
         <h1 class="text-xl font-semibold pb-4">Experienced Coach</h1>
-        <p class="text-base font-normal text-[#131318] opacity-60">Amet consectetur. Condimentum <br> dignissim
-          adipiscing.</p>
+        <p class="text-base font-normal text-[#131318] opacity-60">This is crucial for player development <br> and success on and off the ice.</p>
       </div>
       <div class="text-center">
         <div class="radial-progress text-primary text-[#FFB546] text-3xl font-extrabold mb-6 mt-6"
@@ -165,8 +167,7 @@
             class="text-[#131318]">90%</span></div>
 
         <h1 class="text-xl font-semibold pb-4">Senior Player</h1>
-        <p class="text-base font-normal text-[#131318] opacity-60">Amet consectetur. Condimentum <br> dignissim
-          adipiscing.</p>
+        <p class="text-base font-normal text-[#131318] opacity-60">positively influence the team's performance <br> and the development of younger players.</p>
       </div>
       <div class="text-center">
         <div class="radial-progress text-primary
@@ -174,8 +175,7 @@
           role="progressbar"><span class="text-[#131318]">80%</span></div>
 
         <h1 class="text-xl font-semibold pb-4">Training Ground</h1>
-        <p class="text-base font-normal text-[#131318] opacity-60">Amet consectetur. Condimentum <br> dignissim
-          adipiscing.</p>
+        <p class="text-base font-normal text-[#131318] opacity-60">the availability of equipment, or the <br> overall layout of the training area.</p>
       </div>
     </div>
   </section>
@@ -184,23 +184,20 @@
     <hr class="border-dashed">
     <div class="text-center pt-8 pb-8">
       <h1 class="text-4xl font-extrabold">Program Sections</h1>
-      <p class="text-base font-medium text-[#131318] opacity-60 pt-6">Dit amet consectetur. Condimentum dignissim
-        adipiscing aliquam turpis placerat
-        <br>dolor. Purus urna in sit nullam proin.
+      <p class="text-base font-medium text-[#131318] opacity-60 pt-6">Our Youth Development Program at Your Hockey's is designed <br> to introduce young players to the fundamentals of hockey in a fun and supportive environment.
       </p>
     </div>
     <hr class="border-dashed">
 
     <!--Register card Section  --> 
    
-    <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div class="mt-12 p-4 lg:p-0 grid grid-cols-1 md:grid-cols-2 gap-6">
       <div class="card w-full bg-no-repeat image-full">
          <figure class="bg-[url('Images/2.png')] bg-no-repeat bg-cover"></figure>
 
           <div class="card-body">
             <h2 class="card-title pb-4 pt-24 text-3xl font-extrabold text-white">Junior Program</h2>
-            <p class="pb-6 text-base font-medium text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit  <br>
-              enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi nulla. Tortor congue sed et in.</p>
+            <p class="pb-6 text-base font-medium text-white">Welcome to our Junior Program, where young hockey enthusiasts <br> embark on an exciting journey of skill development, teamwork, and the joy of the game. </p>
             <div class="card-actions justify-start">
               <button class="btn btn-primary  bg-[#FF4240] hover:bg-[#EEEEEE] text-xl font-bold border-none text-white hover:text-[#131318] ">Register Now!</button>
             </div>
@@ -210,8 +207,7 @@
           <figure class="bg-[url('Images/3.png')] bg-no-repeat bg-cover"></figure>
           <div class="card-body">
             <h2 class="card-title pb-4 pt-24 text-3xl font-extrabold text-white">Teenager Program</h2>
-            <p class="pb-6 text-base font-medium text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit  <br>
-              enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi nulla. Tortor congue sed et in.</p>
+            <p class="pb-6 text-base font-medium text-white">Welcome to our Teenager Program, where young hockey enthusiasts <br> embark on an exciting journey of skill development, teamwork, and the joy of the game.</p>
             <div class="card-actions justify-start">
               <button class="btn btn-primary  bg-[#FF4240] hover:bg-[#EEEEEE] text-xl font-bold border-none text-white hover:text-[#131318] ">Register Now!</button>
             </div>
@@ -221,8 +217,7 @@
           <figure class="bg-[url('Images/4.png')] bg-no-repeat bg-cover"></figure>
           <div class="card-body">
             <h2 class="card-title pt-36 text-3xl font-extrabold text-white">Professional Program</h2>
-            <p class="pb-6 pt-6 text-base font-medium text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit  <br>
-              enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi nulla. Tortor congue sed et in.</p>
+            <p class="pb-6 pt-6 text-base font-medium text-white">Welcome to our Professional Program, where young hockey enthusiasts <br> embark on an exciting journey of skill development, teamwork, and the joy of the game.</p>
             <div class="card-actions justify-start">
               <button class="btn btn-primary  bg-[#FF4240] hover:bg-[#EEEEEE] text-xl font-bold border-none text-white hover:text-[#131318] ">Register Now!</button>
             </div>
@@ -273,28 +268,21 @@
         </div>
       </div>
 
-    </div> -->
-   
-    
-      
-   
-   
-    
+    </div> -->    
+  
   </section>
 
   <!-- Our New Products -->
-  <section class="container mx-auto mt-24">
+  <section class="p-4 lg:p-0 mt-8 lg:mt-24 container mx-auto ">
     <hr class="border-dashed">
     <div class="text-center pt-8 pb-8">
       <h1 class="text-4xl font-extrabold">Our New Products</h1>
-      <p class="text-base font-medium text-[#131318] opacity-60 pt-6">Dit amet consectetur. Condimentum dignissim
-        adipiscing aliquam turpis placerat
-        <br>dolor. Purus urna in sit nullam proin.
+      <p class="text-base font-medium text-[#131318] opacity-60 pt-6">DExplore our Online Store for exclusive offers on new products. <br> From special discounts to bundle deals, shop conveniently from home and <br> gear up for an exciting season ahead.
       </p>
     </div>
     <hr class="border-dashed">
 
-    <div class="m-12  grid grid-cols-1 lg:grid-cols-2 gap-4">
+    <div class="m-0 lg:m-12  grid grid-cols-1 lg:grid-cols-2 gap-4">
       <!-- card 1 -->
       <div class="card none  rounded-2xl border">
         <div class="flex flex-col lg:flex-row">
@@ -847,12 +835,11 @@
   </section>
 
   <!-- Clients Question section -->
-  <section class="container mx-auto ">
+  <section class="p-4 lg:p-0 container mx-auto ">
     <hr class="border-dashed">
     <div class="text-center pt-8 pb-8">
       <h1 class="text-4xl font-extrabold">Clients Question</h1>
-      <p class="text-base font-medium text-[#131318] opacity-60 pt-6">Dit amet consectetur. Condimentum dignissim
-        adipiscing aliquam turpis placerat<br> dolor. Purus urna in sit nullam proin. </p>
+      <p class="text-base font-medium text-[#131318] opacity-60 pt-6">Please go ahead and ask your client's question, <br> and I'll do my best to help provide a response or guidance. </p>
     </div>
     <hr class="border-dashed">
 
@@ -867,7 +854,7 @@
               Our Equipment
             </div>
             <div class="collapse-content">
-              <p class="text-base font-medium text-[#131318] opacity-60 pt-6">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+              <p class="text-base font-medium text-[#131318] opacity-60 pt-6">we are committed to providing our players <br> with top-notch equipment to enhance their performance on the ice. </p>
             </div>
           </div>
           <hr>
@@ -934,12 +921,11 @@
   </section>
 
   <!-- Get In Touch section -->
-  <section class="container mx-auto mt-24">
+  <section class="p-4 lg:p-0 mt-0 lg:mt-24 container mx-auto ">
     <hr class="border-dashed">
     <div class="text-center pt-8 pb-8">
       <h1 class="text-4xl font-extrabold">Get In Touch</h1>
-      <p class="text-base font-medium text-[#131318] opacity-60 pt-6">Dit amet consectetur. Condimentum dignissim
-        adipiscing aliquam turpis placerat<br> dolor. Purus urna in sit nullam proin. </p>
+      <p class="text-base font-medium text-[#131318] opacity-60 pt-6">We'd love to hear from you! Whether you have questions about our <br> programs, want to inquire about membership, or just want to share your love for hockey, <br> we're here for you.  </p>
     </div>
     <hr class="border-dashed">
 
@@ -947,7 +933,7 @@
     <div class="grid grid-cols-1 lg:grid-cols-3 ">
     <!-- left side -->
       <div class="col-span-1">
-        <div class="p-6 lg:p-12 border-2 rounded-2xl mt-24 grid grid-cols-1 gap-4">
+        <div class=" border-2 rounded-2xl mt-14 lg:mt-24 grid grid-cols-1 gap-4">
           <div class=" p-10 rounded-2xl bg-[#F8FDF0]">
             <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
               <g clip-path="url(#clip0_10_512)">
@@ -1325,32 +1311,32 @@
         </div>
       </div>
     <!-- Right side -->
-          <div class="mt-12 p-12 col-span-1 lg:col-span-2">
+          <div class="mt-12 p-0 lg:p-12 col-span-1 lg:col-span-2">
             <div class=" grid gap-6 grid-cols-1 lg:grid-cols-2">
               <div>
                 <label for="" class="text-xl font-bold text-[#131318] ">Your Name</label>
-                <input type="text" placeholder="Enter your full name" class="mt-6 input input-bordered w-full bg-[#13131808]" />
+                <input type="text" placeholder="Enter your full name" class="mt-6 input border-0 w-full bg-[#13131808]" />
               </div>
 
               <div>
                 <label for="" class="text-xl font-bold text-[#131318] ">Your Email</label>
-                <input type="text" placeholder="Enter your email" class="mt-6 input input-bordered w-full bg-[#13131808]" />
+                <input type="text" placeholder="Enter your email" class="mt-6 input border-0 w-full bg-[#13131808]" />
               </div>
 
               <div>
                 <label for="" class="text-xl font-bold text-[#131318] ">Subject</label>
-                <input type="text" placeholder="Enter your subject" class="mt-6 input input-bordered w-full bg-[#13131808]" />
+                <input type="text" placeholder="Enter your subject" class="mt-6 input border-0 w-full bg-[#13131808]" />
               </div>
 
               <div>
                 <label for="" class="text-xl font-bold text-[#131318] ">Phone Number</label>
-                <input type="text" placeholder="Enter your phone number" class="mt-6 input input-bordered w-full bg-[#13131808]" />
+                <input type="text" placeholder="Enter your phone number" class="mt-6 input border-0 w-full bg-[#13131808]" />
               </div>
               
             </div>
               <div class="mt-4">
                 <label for="" class="text-xl font-bold text-[#131318] ">Message</label>
-                <textarea class="w-full mt-6 textarea textarea-bordered text-base bg-[#13131808]" placeholder="Write your message" rows="15"></textarea>
+                <textarea class="w-full mt-6 textarea border-0  text-base bg-[#13131808]" placeholder="Write your message" rows="11 "></textarea>
               </div>
               <div>
                 <button class="mt-8 btn btn-primary  bg-[#FF4240] hover:bg-[#EEEEEE] text-xl font-bold border-none w-full text-white hover:text-[#131318] ">Send Message</button>
@@ -1361,7 +1347,7 @@
   </section>
   
   <!-- Social Media Section -->
-  <section class="container text-center mx-auto mt-24">
+  <section class=" p-4 lg:p-0 mt-0 lg:mt-24 container text-center mx-auto ">
     <div class=" rounded-2xl bg-[#EEEEEE]">
     <div class="text-center pt-8 pb-8">
       <h1 class="text-4xl font-extrabold pb-6">Social Media</h1>
@@ -1379,11 +1365,11 @@
     </div>
   </section>
   <!-- Footer Section -->
-  <section class="mt-24">
+  <section class="mt-8 lg:mt-24">
     <footer class="footer p-10 bg-[#131318] text-base-content">
       <div class="">
         <h1 class="pb-4 text-white font-extrabold text-3xl">Get In Touch</h1>
-        <p class="pb-6 text-[#ffffff] opacity-60">Dit amet consectetur. Condimentum <br> adipiscing aliquam turpis placerat dolor. Purus <br> urna in sit nullam proin. </p>
+        <p class="pb-6 text-[#ffffff] opacity-60">We'd love to hear from you! Whether you have questions about our <br> programs, want to inquire about membership, or just want to share your love for hockey, <br> we're here for you.</p>
       
       <div>
         <div class="pb-4">
